@@ -1,0 +1,224 @@
+body {
+  font-family: "Verdana", "Tahoma", sans-serif;
+  color: #333333;
+
+}
+a {
+  color: #010105;
+  text-decoration: none;
+}
+
+span{
+  color: red;
+  font-size: large;
+}
+
+
+.site-nav1{
+  display: flex;
+  flex-direction: row;
+  justify-content:center;
+  background-color: rgb(252, 215, 5);
+}
+.nav-a{
+  padding:5px;
+  padding-left:20px;
+  padding-right:20px;
+  align-content: center;
+  /*border: 1px solid;
+  border-color: hotpink;*/
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.site-nav2{
+  display: flex;
+  flex-direction: row;
+  justify-content:center;
+  align-content: center;
+  /*border: 1px solid;
+  border-color: hotpink;*/
+  background-color: rgb(228, 228, 228);
+  height: 60px;
+}
+
+.site-nav3{
+  display: flex;
+  flex-direction: row;
+  justify-content:flex-end;
+  background-color: rgb(195, 201, 235);
+  background-image: url("img/index11.jpg");
+  background-repeat: no-repeat;
+  height: 300px;
+}
+
+.return{
+  background-color: rgb(252, 215, 5);
+  height: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding:10px;
+}
+
+.return-input{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: rgb(211, 211, 209);
+  margin: 5px;
+  padding: 5px;
+ }
+
+.return-button {margin: 5px;
+  padding: 5px;}
+
+.video {
+  display: flex;
+  flex-direction: row;
+  justify-content:center;
+  background-color: rgb(31, 34, 51);
+}
+
+.zakaz{
+  display: flex;
+  flex-direction: column;
+  justify-content:flex-start;
+  background-color: rgb(63, 74, 136, 0.3);
+  height: 215px;
+  padding:0px;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: 50px;
+  }
+
+.site-footer {
+  background-color: rgb(228, 228, 228);
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around;
+  padding: 10px;
+  }
+
+
+.ava{background-color: rgb(215, 199, 241);
+  height="100";
+}
+.razdel {
+  display: flex;
+  flex-direction: row;
+  justify-content:center;
+}
+
+h1 {color:rgb(176, 176, 177);
+font-size: large;
+}
+
+/* Описание ФЛЕКС раздела - Наши Предложения*/
+
+.cams {
+  display: flex;
+  flex-direction: row;
+  justify-content:center;
+}
+
+.cam {
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  margin: 10px;
+  padding: 0px;
+  max-width: 600px;
+  width: 200px;
+}
+
+.cam-buy {
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  text-align: center;
+ /* width: 100%;*/
+  
+  }
+
+.line {
+  border-top: 1px solid rgba(108, 110, 108, 0.3);
+}
+
+.cam-mod1 {
+  background-color: rgb(127, 172, 214);
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content:center;
+  padding: 5px;
+}
+.cam-mod2 {
+  background-color: rgb(162, 165, 168);
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content:center;
+  padding: 5px;
+}
+.cam-mod3 {
+  background-color: rgb(21, 22, 22);
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content:center;
+  padding: 5px;
+}
+
+.cam-img {
+  width: 100%;
+}
+
+.cam-button {
+  margin-top:auto;
+  background-color: red;
+  color: white;
+}
+
+/* Декоративные обводки */
+
+.cam {
+  outline: 1px solid rgba(108, 110, 108, 0.3);
+  outline-offset: 1px;
+}
+
+
+/* Описание ФЛЕКС раздела - Для кого подойдет*/
+
+.sports {
+  display: flex;
+  flex-direction: column;
+  /*border: 1px solid;*/
+  margin: 10px;
+  
+
+  width: 150px;
+   }
+
+.sport-text {
+  background-color: rgb(224, 226, 228);
+  height: 40px;
+  text-align: center;
+}
+
+.SJCAM-Who {display: flex;
+  flex-direction: row;
+  justify-content:center;
+  margin-left: auto;
+  margin-right: auto;
+flex-wrap: wrap;
+width: 700px;
+}
+
+.qs {
+  display: flex;
+  flex-direction: column;
+}
